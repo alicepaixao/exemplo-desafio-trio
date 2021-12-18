@@ -1,0 +1,58 @@
+#cadastro_curso{
+    padding: 0.4rem 1rem;
+    background-color: #8ecae6;
+    font-size: 14px;
+    font-weight: bold;
+    color: #023047;
+    letter-spacing: 0.1rem;   
+    border: 1px solid transparent; 
+}
+
+#cadastro_curso:hover{
+    cursor: pointer;
+    background-color: #219ebc;
+    color: snow;
+    border: 1px solid #023047;
+}
+
+.curso_botoes_editar_deletar button{
+    padding: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: snow;
+    letter-spacing: 0.1rem;
+    border: 2px solid transparent; 
+}
+.curso_botoes_editar_deletar button:hover{
+    cursor: pointer;
+    border: 2px solid #264653;
+}
+
+.curso_botao_editar{
+    background-color: #2a9d8f;
+}
+.curso_botao_deletar{
+    background-color: #e76f51;
+}
+
+
+
+/* MODAL butões */
+.modal-footer button{
+    padding: 0.5rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: snow;
+    letter-spacing: 0.1rem;
+    border: 2px solid transparent;
+}
+#salvar{
+    background-color: #2a9d8f;    
+}
+#salvar-edicao{
+    background-color: #3f2a9d;
+    display: none;
+}
+#cancelar{
+    background-color: #e76f51;
+}

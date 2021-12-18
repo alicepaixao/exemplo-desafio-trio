@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Desafio Trio</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/modal.css">
+
+    <script src="./script/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cadastro de Cursos da Gama</h1>
+    </header>
+    <main>
+        <div id="cadastro_pesquisar_curso">
+            <button type="button" id="cadastro_curso">Cadastrar Curso</button>
+        </div>     
+
+        <div id="container"><div>
+        
+        
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Curso</h2>
+                </header>
+                 
+                <form id="form" class="modal-form">
+                    <input type="text" id="novo_img" data-index="new" required class="modal-field" placeholder="Imagem">
+                    <input type="text" id="novo_titulo" class="modal-field" placeholder="Título" required>
+                    <input type="number" id="novo_id" class="modal-field" placeholder="ID" required>
+                    <input type="text" id="novo_professor" class="modal-field" placeholder="Professor" required>
+                    <div id="modal-textarea">
+                        <textarea name="" id="novo_descricao" cols="30" rows="8" placeholder="Descrição do Curso" required></textarea>
+                        <textarea name="" id="novo_aulas" cols="30" rows="8" placeholder="Lista de aulas" required></textarea>
+                    </div>
+                                      
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar">Salvar</button>
+                    <button id="salvar-edicao">Editar</button>
+                    <button id="cancelar">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; @paixaoalice
+    </footer>
+</body>
+</html>
